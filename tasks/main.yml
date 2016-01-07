@@ -1,10 +1,16 @@
 ---
+- name: Download remi repo.
+  get_url:
+    url: "{{ remi_repo_url }}"
+    dest: /tmp/remi-release-{{ ansible_distribution_major_version }}.rpm
+
 - name: Install remi repo.
   yum:
-    name: "{{ remi_repo_url }}"
+    name: /tmp/remi-release-{{ ansible_distribution_major_version }}.rpm
     state: present
 
+- name: Download remi GPG key.
+  get_url: url={{ remi_repo_gpg_key_url }} dest=/tmp/RPM-GPG-KEY-remi
+
 - name: Import remi GPG key.
-  rpm_key:
-    key: "{{ remi_repo_gpg_key_url }}"
-    state: present
+  rpm_key: key=/tmp/RPM-GPG-KEY-remi state=present
