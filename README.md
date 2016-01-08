@@ -13,9 +13,9 @@ None
 Available variables are listed below, along with default values (see `defaults/main.yml`):
 
 ```yaml
-# Remi repo GPG key
+# Remi repo GPG key.
 remi_repo_gpg_key_url: http://rpms.remirepo.net/RPM-GPG-KEY-remi
-# Remi repo package
+# Remi repo package.
 remi_repo_url: http://rpms.famillecollet.com/enterprise/remi-release-{{ ansible_distribution_major_version }}.rpm
 ```
 
