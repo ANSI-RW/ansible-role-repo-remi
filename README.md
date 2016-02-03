@@ -1,6 +1,6 @@
 # Ansible Role: Remi Repository
 
-[![Build Status](https://img.shields.io/travis/rwanyoike/ansible-role-repo-remi.svg)](https://travis-ci.org/rwanyoike/ansible-role-repo-remi) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/rwanyoike/ansible-role-repo-remi/master/LICENSE)
+[![Build Status](https://img.shields.io/travis/thestarkenya/ansible-role-repo-remi.svg)](https://travis-ci.org/thestarkenya/ansible-role-repo-remi) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/thestarkenya/ansible-role-repo-remi/master/LICENSE)
 
 Installs the Remi repository (Les RPM de Remi) on RHEL/CentOS.
 
@@ -29,14 +29,9 @@ None
 - hosts: servers
 
   roles:
-    - role: rwanyoike.repo-remi
+    - role: ansible-role-repo-remi
 ```
 
 ## License
 
 MIT
-
-## Author Information
-
-- This role was created in 2014 by [Jeff Geerling](http://jeffgeerling.com/), author of [Ansible for DevOps](http://ansiblefordevops.com/).
-- This role was forked in 2015 by [Raymond Wanyoike](https://github.com/rwanyoike).
