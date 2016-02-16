@@ -1,6 +1,6 @@
 # Ansible Role: Remi Repository
 
-[![Build Status](https://img.shields.io/travis/ANSIRW/ansible-role-repo-remi.svg)](https://travis-ci.org/ANSIRW/ansible-role-repo-remi) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/ANSIRW/ansible-role-repo-remi/master/LICENSE)
+[![Build Status](https://img.shields.io/travis/ANSI-RW/ansible-role-repo-remi.svg)](https://travis-ci.org/ANSI-RW/ansible-role-repo-remi) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/ANSI-RW/ansible-role-repo-remi/master/LICENSE)
 
 Installs and configures Remi Repository (Les RPM de Remi) on RHEL/CentOS.
 
