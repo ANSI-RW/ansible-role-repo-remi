@@ -5,7 +5,7 @@
     dest: /tmp/remi-release-{{ ansible_distribution_major_version }}.rpm
 
 - name: install remi repo
-  yum:
+  package:
     name: /tmp/remi-release-{{ ansible_distribution_major_version }}.rpm
     state: present
 
